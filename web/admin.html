@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Вход</title>
+    <link rel="stylesheet" href="css/admin.css">
     <script type="text/javascript" src="/eel.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1 class="topic">Admin</h1>
     <form action="panel.html">
-        <input type="text" placeholder="Логин" required>
-        <input type="password" placeholder="Пароль" required>
-        <button>Войти</button>
+        <input type="text" placeholder="Логин" required class="log">
+        <input type="password" placeholder="Пароль" required class="pass">
+        <button class="conn">Войти</button>
     </form>
     <form action="main.html">
-        <button>Назад</button>
+        <button class="backbtn">Назад</button>
     </form>
 </body>
 </html>
