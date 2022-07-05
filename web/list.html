@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Список растений</title>
+    <link rel="stylesheet" href="css/list.css">
     <script type="text/javascript" src="/eel.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Список растений</h1>
+    <h1 class="topic">Список растений</h1>
     <form>
-        <select>
+        <select class="list">
             <option>Редкосемечник</option>
             <option>Многоголовник</option>
             <option>Яроница</option>
@@ -20,8 +21,11 @@
             <option>Сердцеплодник</option>
         </select>
     </form>
+    <form>
+        <button class="addbtn">Добав. в корзину</button>
+    </form>
     <form action="main.html">
-        <button>Назад</button>
+        <button class="backbtn">Назад</button>
     </form>
 </body>
 </html>
