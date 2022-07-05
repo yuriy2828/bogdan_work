@@ -12,11 +12,12 @@
 <body>
     <h1 class="topic">Корзина</h1>
     <form action="check.html">
-        <input type="date" placeholder="Дата выдачи" required class="date">
-        <input placeholder="ФИО/Наименование организации" required class="name">
-        <input placeholder="Адрес" required class="address">
+        <input type="date" placeholder="Дата выдачи" required class="date" id="">
+        <input type="text" placeholder="ФИО/Наименование организации" required class="name" id="customer2">
+        <input type="text" placeholder="Адрес" required class="address">
         <input type="tel" placeholder="Контактный номер" required class="tel">
-        <button class="check">Чек</button>
+        <p id="product2"></p>
+        <button class="check" id="sendValues">Чек</button>
     </form>
     <form action="list.html">
         <button class="backbtn">Назад</button>
